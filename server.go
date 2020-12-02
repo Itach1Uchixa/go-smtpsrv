@@ -53,6 +53,7 @@ func ListenAndServeTLS(cfg *ServerConfig) error {
 	s.EnableSMTPUTF8 = false
 	s.EnableREQUIRETLS = true
 	s.TLSConfig = cfg.TLSConfig
+	s.caps = []string{}
 
 	fmt.Println("⇨ smtp server started on", s.Addr)
 
