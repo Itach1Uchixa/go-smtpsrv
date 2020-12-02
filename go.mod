@@ -1,4 +1,4 @@
-module github.com/alash3al/go-smtpsrv/v3
+module github.com/Itach1Uchixa/go-smtpsrv
 
 require (
 	github.com/alash3al/go-smtpsrv v0.0.0-20200606200409-605c4fdb0b9c // indirect
